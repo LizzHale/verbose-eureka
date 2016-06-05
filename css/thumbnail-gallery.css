@@ -30,7 +30,7 @@ body {
   width: 160px;
   height: 120px;
   float: left;
-  background: #D26;
+  background: #777;
   border: 2px solid #333;
   /*border-color: hsla(0, 0%, 0%, 0.5);*/
   border-color: white;
@@ -42,9 +42,12 @@ body {
 .grid-item--width3 { width: 480px; }
 .grid-item--width4 { width: 640px; }
 
-.grid-item--height2 { height: 200px; }
-.grid-item--height3 { height: 260px; }
-.grid-item--height4 { height: 360px; }
+.grid-item--height { height: auto; }
+
+.height2 { height: 200px; }
+.height3 { height: 260px; }
+.height4 { height: 360px; }
+
 
 .grid-item--gigante {
   display: block;
