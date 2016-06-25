@@ -46,7 +46,7 @@ footer {
   height: 100%;
   width: 100%;
 }
-.gallery > div > ul > li > img {
+.gallery > div > ul > li > img:hover {
   -webkit-transform: scale3d(1.1, 1.1, 1.1);
   transform: scale3d(1.1, 1.1, 1.1);
 }
