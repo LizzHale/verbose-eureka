@@ -4,6 +4,6 @@ $(window).load(function(){ $('.grid').masonry({
   });
 });
 
-$('.grid').imagesLoaded().progress( function() {
-  $('.grid').masonry('layout');
-});
+// $('.grid').imagesLoaded().progress( function() {
+//   $('.grid').masonry('layout');
+// });
