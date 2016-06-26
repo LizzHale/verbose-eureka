@@ -3,9 +3,11 @@ $(document).ready(function(){
     hideBarsDelay: 600,
     showThumbByDefault: false,
   });
-});
 
-$(window).load(function(){ $('.grid').masonry({
-    itemSelector: '.grid-item'
+  var $grid = $('.grid');
+  $grid.imagesLoaded( function() {
+    $grid.masonry({
+      itemSelector: '.grid-item'
+    });
   });
 });
