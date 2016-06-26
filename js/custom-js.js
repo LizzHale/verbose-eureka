@@ -4,8 +4,13 @@ $(document).ready(function(){
     showThumbByDefault: false,
   });
 
+  var $gridItem = $('.grid-item');
+  $gridItem.hide()
+
   var $grid = $('.grid');
+
   $grid.imagesLoaded( function() {
+    $gridItem.fadeIn();
     $grid.masonry({
       itemSelector: '.grid-item'
     });
