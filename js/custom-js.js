@@ -1,12 +1,11 @@
 $(document).ready(function(){
-  var $gallery = $('.gallery');
-  $gallery.hide()
+  var $gridItem = $('.grid-item');
+  $gridItem.hide()
 
   var $grid = $('.grid');
 
   $grid.imagesLoaded( function() {
-    $gallery.show();
-
+    $gridItem.show();
     $grid.masonry({
       itemSelector: '.grid-item'
     });
