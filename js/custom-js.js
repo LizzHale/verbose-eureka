@@ -10,7 +10,7 @@ $(document).ready(function(){
   var $grid = $('.grid');
 
   $grid.imagesLoaded( function() {
-    $gridItem.fadeIn();
+    $gridItem.show();
     $grid.masonry({
       itemSelector: '.grid-item'
     });
