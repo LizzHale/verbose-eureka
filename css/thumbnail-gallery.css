@@ -22,20 +22,19 @@ footer {
 .gallery > div > ul {
   margin-bottom: 0;
 }
+
 .gallery > div > ul > li {
   float: left;
   margin-bottom: 15px;
   margin-right: 20px;
   width: 200px;
-}
-.gallery > div > ul > li {
   border: 3px solid #FFF;
   border-radius: 3px;
   display: block;
   overflow: hidden;
   position: relative;
-  float: left;
 }
+
 .gallery > div > ul > li > img {
   -webkit-transition: -webkit-transform 0.15s ease 0s;
   -moz-transition: -moz-transform 0.15s ease 0s;
