@@ -4,12 +4,13 @@ $(document).ready(function(){
 
   var $grid = $('.grid');
 
-  $grid.imagesLoaded( function() {
-    $gridItem.show();
-    $grid.masonry({
-      itemSelector: '.grid-item'
+  $grid.imagesLoaded()
+    .done( function( instance ) {
+      $gridItem.show();
+      $grid.masonry({
+        itemSelector: '.grid-item'
+      });
     });
-  });
 
   $('#lightgallery').lightGallery({
     hideBarsDelay: 600,
