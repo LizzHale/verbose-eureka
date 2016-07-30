@@ -13,7 +13,6 @@ $(document).ready(function(){
     });
 
   $('#lightgallery').lightGallery({
-    data-download-url: false,
     hideBarsDelay: 600,
     showThumbByDefault: false,
   });
