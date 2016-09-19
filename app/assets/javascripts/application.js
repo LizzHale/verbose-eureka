@@ -13,4 +13,16 @@
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
-//= require_tree .
+//= require bootstrap.min
+//= require jquery.mousewheel.min
+//= require lightgallery
+//= require lg-autoplay
+//= require lg-fullscreen
+//= require lg-hash
+//= require lg-pager
+//= require lg-thumbnail
+//= require lg-video
+//= require lg-zoom
+//= require masonry.pkgd
+//= require imagesloaded.pkgd.min
+//= require custom-js
