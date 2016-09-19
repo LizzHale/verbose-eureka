@@ -12,6 +12,8 @@
  *
  *= require_self
  *= require bootstrap.min
- *= require light-gallery
+ *= require lg-fb-comment-box
+ *= require lg-transitions
+ *= require lightgallery
  *= require thumbnail-gallery
  */
