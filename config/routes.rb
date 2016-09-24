@@ -1,7 +1,5 @@
 Rails.application.routes.draw do
-  get 'contact/index'
+  get 'contact', :to => 'contact#index', :as => 'contact'
 
-  get 'gallery/index'
-
-  root 'gallery#index'
+  get '/', :to => 'gallery#index', :as => 'gallery'
 end
