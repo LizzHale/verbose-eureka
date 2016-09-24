@@ -12,6 +12,7 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require jquery.turbolinks
 //= require turbolinks
 //= require bootstrap.min
 //= require jquery.mousewheel.min
@@ -26,4 +27,3 @@
 //= require masonry.pkgd
 //= require imagesloaded.pkgd.min
 //= require custom-js
-//= require jquery.turbolinks
