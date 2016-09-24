@@ -26,3 +26,4 @@
 //= require masonry.pkgd
 //= require imagesloaded.pkgd.min
 //= require custom-js
+//= require jquery.turbolinks
