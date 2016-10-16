@@ -1,5 +1,5 @@
 class GalleryController < ApplicationController
   def index
-    @photos = Photo.all.sort_by &:created_at
+    @photos = Photo.all.order(created_at: :desc)
   end
 end
